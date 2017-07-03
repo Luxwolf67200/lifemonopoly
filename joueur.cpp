@@ -1,4 +1,4 @@
-#include "joueur.h"
+ #include "joueur.h"
 
 Joueur::Joueur(QString _nom): nom(_nom)
 {

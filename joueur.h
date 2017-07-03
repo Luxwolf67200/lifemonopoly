@@ -9,9 +9,12 @@ class Joueur
 {
 public:
     Joueur(QString _nom);
+
     virtual ~Joueur();
 
     void consultercompte();
+    void crediter();
+    void debiter();
 
 private:
 
@@ -20,6 +23,7 @@ private:
 
 
 };
+
 
 
 #endif // JOUEUR_H
