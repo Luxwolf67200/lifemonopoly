@@ -1,3 +1,4 @@
+
 #include "compte.h"
 
 Compte::Compte()
@@ -25,11 +26,19 @@ void  Compte::consulterHistoire()
  //for(int i;)
 }
 
-void Compte::ajouter(int _entrer, QString _destinataire)
+void Compte::ajouter(int _entrer)
 {
     this->_sold = _sold+_entrer;
 //    this->_history
 
 
+
 }
 
+void Compte::retirer(int _sortie)
+{
+    this->_sold = _sold-_sortie;
+//    this->_history
+
+
+}

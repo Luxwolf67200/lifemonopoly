@@ -12,7 +12,7 @@ public:
 
     int getsold();
     void consulterHistoire();
-    void ajouter(int _entrer, QString _destinataire);
+    void ajouter(int _entrer);
     void retirer(int _sortie);
 
     virtual ~Compte();
