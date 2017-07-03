@@ -16,3 +16,11 @@ Joueur::~Joueur()
     std::cout << "destructeur class joueur"<< std::endl;
     delete compte;
 }
+void Joueur::crediter(int _somme)
+{
+    this->compte->ajouter(_somme);
+}
+void Joueur::debiter(int _somme)
+{
+    this->compte->retirer(_somme);
+}

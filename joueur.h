@@ -13,8 +13,8 @@ public:
     virtual ~Joueur();
 
     void consultercompte();
-    void crediter();
-    void debiter();
+    void crediter(int _somme);
+    void debiter(int _somme);
 
 private:
 
